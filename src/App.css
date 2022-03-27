@@ -1,6 +1,6 @@
 .app {
   background-color: var(--facebook-light-gray);
-  height: 100vh;
+  height: 100%;
 }
 
 .app__body {

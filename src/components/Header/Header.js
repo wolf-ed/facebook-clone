@@ -15,6 +15,7 @@ import ForumIcon from '@mui/icons-material/Forum';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
+export const userImg = 'https://randomuser.me/api/portraits/women/82.jpg';
 
 function Header() {
     return (
@@ -50,8 +51,8 @@ function Header() {
 
             <div className='header__right'>
                 <div className='header__info'>
-                    <Avatar src='https://randomuser.me/api/portraits/women/82.jpg' fontSize='large' />
-                    <h4>Elon Musk</h4>
+                    <Avatar src={userImg} fontSize='large' />
+                    <h4>Elona Musk</h4>
                 </div>
                 <IconButton>
                     <AddIcon />

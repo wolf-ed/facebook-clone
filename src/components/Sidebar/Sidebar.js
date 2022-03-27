@@ -6,12 +6,15 @@ import FlagIcon from '@mui/icons-material/Flag';
 import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 import ChatIcon from '@mui/icons-material/Chat'; import StorefrontIcon from '@mui/icons-material/Storefront';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
+import { userImg } from '../Header/Header';
+
+
 
 function Sidebar() {
     return (
         <div className='sidebar'>
 
-            <SidebarRow src='https://randomuser.me/api/portraits/women/82.jpg' title='Random User' />
+            <SidebarRow src={userImg} title='Elona Musk' />
 
             <SidebarRow Icon={FlagIcon} title='Pages' />
             <SidebarRow Icon={PeopleAltIcon} title='Friends' />
