@@ -13,5 +13,4 @@ Facebook clone app with ReactJS.
 * Material UI: *https://mui.com/*
 * HTML and CSS
 * VisualStudio Code
-* Responsive design
 * Git - GitHub

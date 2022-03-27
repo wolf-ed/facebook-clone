@@ -22,13 +22,13 @@ function Header() {
                 <img src='https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg' alt='facebook-logo' />
                 <div className='header__input'>
                     <SearchIcon />
-                    <input type='text'>
+                    <input placeholder='Search Facebook' type='text'>
 
                     </input>
                 </div>
             </div>
             <div className='header__middle'>
-                <div className='header__option'>
+                <div className='header__option header__option--active'>
                     <HomeIcon fontSize='large' />
                 </div>
                 <div className='header__option'>
@@ -50,7 +50,7 @@ function Header() {
             <div className='header__right'>
                 <div className='header__info'>
                     <AccountCircleIcon fontSize='large' />
-                    <h4>Jonny Bravo</h4>
+                    <h4>Elon Musk</h4>
                 </div>
                 <IconButton>
                     <AddIcon />
