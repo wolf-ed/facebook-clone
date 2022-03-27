@@ -4,3 +4,18 @@
   padding: 10px;
   cursor: pointer;
 }
+
+.sidebarRow:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.sidebarRow > h4 {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.sidebarRow > .MuiSvgIcon-root {
+  margin-left: xx-large;
+  color: var(--facebook-blue);
+}

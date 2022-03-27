@@ -7,7 +7,8 @@ import FlagIcon from '@mui/icons-material/Flag';
 import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import SupervisedUserCircleIcon from '@mui/icons-material/SupervisedUserCircle';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+// import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import { Avatar } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
 import AddIcon from '@mui/icons-material/Add';
 import ForumIcon from '@mui/icons-material/Forum';
@@ -49,7 +50,7 @@ function Header() {
 
             <div className='header__right'>
                 <div className='header__info'>
-                    <AccountCircleIcon fontSize='large' />
+                    <Avatar src='https://randomuser.me/api/portraits/women/82.jpg' fontSize='large' />
                     <h4>Elon Musk</h4>
                 </div>
                 <IconButton>

@@ -1,3 +1,4 @@
+import React from 'react';
 import './SidebarRow.css';
 import { Avatar } from '@mui/material';
 
@@ -9,7 +10,7 @@ const SidebarRow = ({ src, Icon, title }) => {
     return <div className="sidebarRow">
         {src && <Avatar src={src} />}
         {Icon && <Icon />}
-        <h2>{title}</h2>
+        <h4>{title}</h4>
     </div>
 }
 

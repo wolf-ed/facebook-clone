@@ -14,3 +14,5 @@ Facebook clone app with ReactJS.
 * HTML and CSS
 * VisualStudio Code
 * Git - GitHub
+* randomuser.me
+* unsplash.com
