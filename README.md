@@ -5,15 +5,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [Technologies](#Technologies)
 
 ## Introduction
-Facebook clone app.
+Facebook clone app with ReactJS.
 ## Technologies
 
 * React- JavaScript
 * Firebase
-* Material UI: https://mui.com/
-* React Router
+* Material UI: *https://mui.com/*
 * HTML and CSS
-* HTML-React-Parser: https://www.npmjs.com/package/html-react-parser
 * VisualStudio Code
 * Responsive design
 * Git - GitHub
