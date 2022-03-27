@@ -52,18 +52,19 @@ function Header() {
                     <AccountCircleIcon fontSize='large' />
                     <h4>Jonny Bravo</h4>
                 </div>
+                <IconButton>
+                    <AddIcon />
+                </IconButton>
+                <IconButton>
+                    <ForumIcon />
+                </IconButton> <IconButton>
+                    <NotificationsActiveIcon />
+                </IconButton> <IconButton>
+                    <ExpandMoreIcon />
+                </IconButton>
             </div>
 
-            <IconButton>
-                <AddIcon />
-            </IconButton>
-            <IconButton>
-                <ForumIcon />
-            </IconButton> <IconButton>
-                <NotificationsActiveIcon />
-            </IconButton> <IconButton>
-                <ExpandMoreIcon />
-            </IconButton>
+
         </div>
     )
 }
