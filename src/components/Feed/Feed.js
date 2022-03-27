@@ -10,6 +10,7 @@ const randomImgOrNot = () => {
     return yesOrNo ? getRandomImage() : '';
 }
 
+
 const Feed = () => {
     const [users, setUsers] = useState([])
     const random10UserUrl = 'https://randomuser.me/api/?results=10';

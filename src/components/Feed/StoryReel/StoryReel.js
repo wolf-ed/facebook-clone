@@ -11,7 +11,7 @@ const getRandomUserImg = () => {
 const unsplashURL = 'https://source.unsplash.com/random/'
 
 const getRandomNumber = () => {
-    return (Math.floor(Math.random() * 10) + 400)
+    return (Math.floor(Math.random() * 10) + 300)
 }
 
 const getRandomSize = () => {
