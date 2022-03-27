@@ -10,7 +10,7 @@
 
 .messageSender__top {
   display: flex;
-  /* border-bottom: 1px solid var(--facebook-gray); */
+  border-bottom: 1px solid var(--facebook-gray);
   padding: 15px;
 }
 
