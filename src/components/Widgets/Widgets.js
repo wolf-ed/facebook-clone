@@ -1,7 +1,5 @@
 import React from "react";
 import './Widgets.css';
-// import { getRandomImage } from '../Feed/StoryReel/StoryReel';
-
 
 const Widgets = () => {
 
@@ -13,12 +11,8 @@ const Widgets = () => {
             height="100%"
             style={{ border: 'none', overflow: 'hidden' }}
             scrolling="no"
-            frameborder="0"
-            allowTransparency="true"
             allow="encrypted-media"
         ></iframe>
-
-
     </div>
 }
 
